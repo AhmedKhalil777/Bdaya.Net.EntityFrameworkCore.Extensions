@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  	<PackageIcon>Bdaya.png</PackageIcon>
+    <PackageId>Bdaya.Net.EntityFrameworkCore.Extensions</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>AhmedKhalil777</Authors>
+    <Company>Bdaya-Dev</Company>
+    <PackageDescription>The extensions methods for many purposes on business domain</PackageDescription>
+    <RepositoryUrl>https://github.com/Bdaya-Dev/Bdaya.Net.EntityFrameworkCore.Extensions</RepositoryUrl>
+  </PropertyGroup>
+	<ItemGroup>
+		<None Include="Bdaya.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Bdaya.Net.Application.Common.Models" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
